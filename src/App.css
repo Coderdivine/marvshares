@@ -36,3 +36,449 @@
     transform: rotate(360deg);
   }
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.update{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+
+}
+ 
+.update input{
+  width:100%;
+  height:30px;
+  margin:10px 0;
+  padding:0 10px;
+  border:1px solid red;
+  border-radius: 15px;
+}
+.update .btn{
+  width:100%;
+  border:none;
+  cursor: pointer;
+  margin:10px 0;
+}
+.update .btn:focus{
+  outline:none;
+}
+body{
+  width: 100%;
+  position:static;
+  font-family: 'poppins', sans-serif;
+  background-size:contain;
+   background-color:#282b34;
+   height: 100vh;
+   
+}
+.header{
+  margin-top: 60px;
+  width: 100%;
+  height: calc(90vh - 60px);
+   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.content{
+  text-align: center;
+}
+
+.heading{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 80px;
+  line-height: 60px;
+  margin-bottom: 80px;
+}
+
+.heading .small{
+  display: block;
+  font-size: 40px;
+}
+
+.heading .no-fill{
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+.btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor:pointer;
+}
+.block-2{
+background:transparent;
+width:450px;
+height:395px;
+position:relative;
+text-align:center;
+padding:20px 0;
+margin:auto;
+margin-top:0%;
+box-shadow:0 0 0px rgba(0,0,0,0.1);
+margin-bottom:50px;
+border:2px solid white;
+
+}
+.block-3{
+  background:transparent;
+  opacity: 0.5;
+  width:450px;
+  height:295px;
+  position:relative;
+  text-align:center;
+  padding:20px 0;
+  margin:auto;
+  margin-top:0%;
+  box-shadow:0 0 0px rgba(0,0,0,0.1);
+  margin-bottom:50px;
+  border:1px solid white;
+  
+}
+.block-4{
+  background:transparent;
+  
+  column-count: white;
+  width:250px;
+  height:115px;
+  position:relative;
+  text-align:center;
+  padding:20px 0;
+  margin:auto;
+  margin-top:0%;
+   margin-bottom:40px;
+  border:1px solid white;
+  
+}
+.block-3 h1{
+    color: white;
+    font-size: medium;
+}
+.block-2 h1{
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  margin-bottom: 2%;
+}
+.block-2 small{
+  color: white;
+  font-size: small;
+
+}
+#indi{
+    color: red;
+    height: 4px;
+    border: 2px solid red;
+    align-items: center;
+    width: 100px;
+    position:relative;
+  text-align:center;
+  padding:1px 0;
+  margin:auto;
+}
+.block{
+    display: block;
+    padding: 30px 30px 30px 30px;
+}
+.block .btn{
+    display: block;
+    padding: 10px 20px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer{
+  background:transparent;
+  color:white;
+  font-size:16px;
+  padding:70px 0 30px;
+  text-align: center;
+  }
+  .footer p{
+  color: white;
+  font-size: 20px;
+  }
+  .footer h3{
+  color:#fff;
+  margin-bottom:20px;
+  }
+  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width:250px;
+  margin-bottom:40px;
+  }
+  .footer-col-1{
+  flex-basis:40%;
+  }
+  .footer-col-1{
+  flex:1;
+  text-align:center;
+  }
+  .footer-col-2 img{
+  width:180px;
+  margin-bottom:20px;
+  }
+  .footer-col-3, .footer-col-4{
+  flex-basis:12%;
+  text-align:center;
+  }
+  .footer-col-2{
+      color: white;
+      text-align: center;
+  }
+  .footer-col-4 ul li{
+      text-align: center;
+      position: relative;
+      display: inline;
+      margin-left: 20px;
+      color: white;
+      font-size: 40px;
+  }
+  .footer-col-4 ul li:last-child{
+      text-align: center;
+      position: relative;
+      display: inline;
+      margin-right: 40px;
+      
+  }
+  .footer-col-4 ul li a{
+      cursor: pointer;
+      color: white;
+      font-size: 30px;
+  }
+  .footer-col-3 ul li a{
+      cursor: pointer;
+      color: white;
+      font-size: 30px;
+  }
+  .formcontainer{
+      background:#fff;
+      width:300px;
+      height:255px;
+      position:relative;
+      text-align:center;
+      padding:20px 0;
+      margin:auto;
+      margin-top:0%;
+      box-shadow:0 0 0px rgba(0,0,0,0.1);
+      margin-bottom:50px;
+      border: 5px;
+      border-top: red;
+      }
+      .formcontainer span{
+      font-weight:bold;
+      padding:0 10px;
+      color:#555;
+      cursor:pointer;
+      width:100px;
+      display:inline-block;
+      }
+      .form-btn{
+      display:inline-block;
+      
+      }
+      .formcontainer form{
+      max-width:300px;
+      padding:0 20px;
+      position:absolute;
+      top:60px;
+      transition: transform 1s;
+      
+      }
+      form input{
+      width:100%;
+      height:30px;
+      margin:10px 0;
+      padding:0 10px;
+      border:1px solid red;
+      border-radius: 15px;
+      }
+      form .btn{
+      width:100%;
+      border:none;
+      cursor: pointer;
+      margin:10px 0;
+      }
+      form .btn:focus{
+      outline:none;
+      }
+      #Loginform{
+      left:-300px;
+      }
+      #Regform{
+      left:0;
+      }
+      form a{
+      font-size:12px;
+      }
+    
+      .form-container small{
+          color: white;
+          font-size: 20px;
+      } 
+    .form-container{
+    background:transparent;
+    width:300px;
+    height:920px;
+    position:relative;
+    text-align:center;
+    padding:20px 0;
+    margin:auto;
+    box-shadow:0 0 0px rgba(0,0,0,0.1);
+    margin-bottom:50px;
+    overflow:hidden;
+    border-radius: 5px;
+    float:inherit;
+    }
+    
+    .form-container span{
+    font-weight:bold;
+    padding:0 10px;
+    color:#555;
+    cursor:pointer;
+    width:100px;
+    display:inline-block;
+    }
+    .form-btn{
+    display:inline-block;
+    
+    }
+    .form-container form{
+    max-width:300px;
+    padding:0 20px;
+    position:absolute;
+    top:130px;
+   
+    margin-top: 30px;
+    
+    }
+    form input{
+        
+    width:100%;
+    height:30px;
+    margin:10px 0;
+    padding:0 10px;
+    background: transparent;
+    color: white;
+    border:1px solid transparent;
+    border-radius: 0;
+    border-bottom: 2px solid blue;
+    }
+   
+      form textarea{
+        width:100%;
+        height:30px;
+        background: transparent;
+        margin:10px 0;
+        padding:0 10px;
+        border:1px solid transparent;
+        border-radius: 0;
+        border-bottom: 2px solid blue;
+        }
+      form textarea:focus{
+          width:200px;
+          height:30px;
+          margin:10px 0;
+          padding:0 10px;
+          background: transparent;
+          border:1px solid transparent;
+          border-radius: 0;
+          border-bottom: 2px solid blue;
+          }
+          .block-5{
+              width: 100%;
+              height: 200px;
+              color: blue;
+              background: white;
+              border: 2px solid gray;
+              margin-left: 4px;
+              margin-right: 4px;
+              margin-bottom: 5px;
+          }
+          .block-5 img{
+              width: 100px;
+              height: 100px;
+              border-radius: 50px;
+              border: 1px solid blue;
+              background: white;
+              left: 0;
+              float: left;
+          }
+          .block-5 p{
+              display: inline;
+              margin-left: 15px;
+              text-align: center;
+              flex-basis: 30%;
+          }
+          .block-6{
+              margin-top: 30px;
+              text-align: center;
+
+              margin-left: 6px;
+              margin-right: 6px;
+          }
+          .block-6 small{
+              font-size: small;
+              text-align: center;
+          }
+          .block-6 p3{
+              display: inline;
+              text-align:right;
+          }
+          .block-6 p3:last-child{
+              display: inline;
+              text-align:left;
+          }
+          .axe{
+              background: red;
+              float: right;
+              width: 20px;
+              height: 20px;
+              border-radius: 10px;
+              cursor: pointer;
+
+          }
+          .axe-1{
+              background: blue;
+              float: right;
+              width: 20px;
+              height: 20px;
+              border-radius: 10px;
+              cursor: pointer;
+
+          }
+          .policy{
+              margin-top: 50px;
+              background:grey;
+              opacity: 0.8;
+              border: 1px solid white;
+              text-align: center;
+              margin-bottom: 50px;
+              width: 100%;
+              min-width: 100%;
+              color: white;
+
+          }
+          .policy header{
+              text-align: center;
+              font-size: 35px;
+              color: white;
+          }
+          .policy p{
+              color: white;
+              font-size: 17px;
+          }
